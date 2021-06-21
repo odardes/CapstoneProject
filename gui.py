@@ -29,10 +29,9 @@ def cmps_to_pxps(cmps):
     return cmps * one_cmps
 
 
-instructions = '''1.  You can use move(distance,time,direction) function to control the vehicle’s movements. Don’t forget to give degree to direction (ex 45,135,270 etc).
-\n2.  You can check the distance between the car and an obstacle via using obs_dist() function.
-\n3.  You can press the reset button to restore to defaults and  start over.
-\n4.  You can use if/else,while/do while statements to see what you learned from coding course. Example: if(give_dist_obstacle()<5) move(20,2,135)
+instructions = '''1.  You can use move(distance,time,direction) function to control the vehicle’s movements. Please give degree values to direction (ex 45,135,270 etc.).   
+\n2.  You can press the reset button to restore to defaults and  start over.
+\n3.  You can use repeat() function to create a while loop(Ex: repeat (3)move(20,2,135)).
 '''
 
 
